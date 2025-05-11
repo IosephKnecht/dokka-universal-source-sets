@@ -1,0 +1,12 @@
+[versions]
+androidGradlePlugin = "8.6.1"
+kotlin = "1.9.22"
+dokka = "2.0.0"
+
+[libraries]
+android-gradlePlugin-api = { group = "com.android.tools.build", name = "gradle-api", version.ref = "androidGradlePlugin" }
+android-gradlePlugin-impl = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
+dokka-gradlePlugin = { group = "org.jetbrains.dokka", name = "dokka-gradle-plugin", version.ref = "dokka" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
