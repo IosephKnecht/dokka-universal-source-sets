@@ -1,7 +1,7 @@
 [versions]
 androidGradlePlugin = "9.0.0"
 kotlin = "2.2.0"
-dokka = "2.0.0"
+dokka = "2.2.0-Beta"
 
 [libraries]
 android-gradlePlugin-api = { group = "com.android.tools.build", name = "gradle-api", version.ref = "androidGradlePlugin" }
